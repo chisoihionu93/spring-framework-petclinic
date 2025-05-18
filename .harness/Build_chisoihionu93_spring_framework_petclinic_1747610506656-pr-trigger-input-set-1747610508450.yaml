@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chisoihionu93_spring_framework_petclinic_1747610506656-pr-trigger-input-set
+  identifier: Build_chisoihionu93_spring_framework_petclinic_1747610506656prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_chisoihionu93_spring_framework_petclinic_1747610506656
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
