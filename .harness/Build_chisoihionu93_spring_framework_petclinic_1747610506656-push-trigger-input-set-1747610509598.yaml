@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chisoihionu93_spring_framework_petclinic_1747610506656-push-trigger-input-set
+  identifier: Build_chisoihionu93_spring_framework_petclinic_1747610506656pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_chisoihionu93_spring_framework_petclinic_1747610506656
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
