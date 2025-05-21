@@ -1,2 +1,2 @@
-FROM busybox:stable-glibc
-CMD ["sleep", "3600"]
+FROM scratch
+WORKDIR /
