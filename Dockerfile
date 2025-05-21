@@ -1,2 +1,2 @@
-FROM busybox:latest
+FROM busybox:stable-glibc
 CMD ["sleep", "3600"]
