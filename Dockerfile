@@ -1,2 +1,2 @@
-FROM scratch
-WORKDIR /
+FROM busybox
+CMD ["sleep", "infinity"]
