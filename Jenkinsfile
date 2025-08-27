@@ -10,6 +10,7 @@ node () {
       // Run the maven build
             withMaven(maven: 'mvn3') {
             sh 'mvn clean install 
+            }
         }
 
          // sh 'chmod +x ./mvnw'
