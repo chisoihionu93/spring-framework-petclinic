@@ -16,4 +16,4 @@ node () {
          // sh 'chmod +x ./mvnw'
          // sh "./mvnw -Dmaven.test.failure.ignore -Dmaven.compiler.source=8 -Dmaven.compiler.target=8' clean install"
    }
-}
+
