@@ -9,7 +9,7 @@ node () {
     stage('Build') {
       // Run the maven build
             withMaven(maven: 'mvn3') {
-            sh 'mvn clean install 
+            sh 'mvn clean install' 
             }
         }
 
