@@ -8,8 +8,8 @@ node () {
    }
     stage('Build') {
       // Run the maven build
-                withMaven(maven: 'mvn3') {
-            sh 'mvn clean install -Dmaven.test.failure.ignore -Dmaven.compiler.source=8 -Dmaven.compiler.target=8'
+            withMaven(maven: 'mvn3') {
+            sh 'mvn clean install 
         }
 
          // sh 'chmod +x ./mvnw'
